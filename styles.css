@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #7f71cc;
+    background-color: #6c58af;
     font-family: 'Gabriola', sans-serif;
 }
 
@@ -23,8 +23,9 @@ body {
     display: flex;
     border: transparent;
     border-radius: 3px;
-    height: 70px;
+    margin-top: center;
     padding: 6px;
+    background-color: #6c58af;
 }
 
 img {
@@ -53,7 +54,7 @@ form {
 
 label {
     color: #070707;
-    width: 400px;
+    width: 450px;
     text-align: center;
     padding: 3px;
 }
