@@ -105,6 +105,12 @@ img:hover {
     transform: scale(1.1);
 }
 
+#showResult {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
 
 
 
