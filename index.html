@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <audio id="myAudio" src="Friends.mp3" loop = "loop" autoplay = "allowed"></audio>
     
     <div id="heading">
     <div id="header">
     <h1>"Friends" Quizz</h1>
     <img class="friends" src="medium-f-r-i-e-n-d-s-i-ll-be-there-for-you-tv-series-posters-for-original-imaffht5fxaggcys.webp" alt="Friends" width="150px" style="transform: translate(0px, 0px);">
-    </div>    
+    </div> 
+    <button id="myButton"><img src="play-music.png" alt="Play Button" width="50px"></button>   
     </div>
 
     <form>
         <div id="question">
         <label>QUESTION 1: How many times did Ross get divorced?</label>
-        <img src="https://sun9-10.userapi.com/impf/h9QljFC91vbn-2Qo2qAEDQ2sk9TInCd7U-nRjg/heJMz6i0rQo.jpg?size=604x449&amp;quality=96&amp;sign=1af1429ff6a856c07d5fb7361092f54c&amp;type=album" alt="quirrell" width="300px" height="180px">
+        <img src="ross-divorced.webp" alt="divorce" width="300px" height="200px">
         <input type="radio" name="questionOne">4
         <input type="radio" name="questionOne">1
         <input type="radio" name="questionOne">2
@@ -28,6 +31,7 @@
 
         <div id="question">
         <label>QUESTION 2: Ross and Rachel's wedding dinner was held where in Vegas?</label>
+        <img src="ross-rachel-marriage.webp" alt="marriage" width="300px" height="200px">
         <input type="radio" name="questionTwo" id="answerTwo">Pizza Hut
         <input type="radio" name="questionTwo">KFC
         <input type="radio" name="questionTwo">Subway
@@ -36,6 +40,7 @@
 
         <div id="question">
         <label>QUESTION 3: What was the name of Ross' pet monkey?</label>
+        <img src="monkey.avif" alt="monkey" width="300px" height="200px">
         <input type="radio" name="questionThree">Chi-Chi
         <input type="radio" name="questionThree">Hugsy
         <input type="radio" name="questionThree" id="answerThree">Marcel
@@ -44,6 +49,7 @@
         
         <div id="question">
         <label>QUESTION 4: What year did Friends first premiere?</label>
+        <img src="friends-premier.avif" alt="premiere" width="300px" height="200px">
         <input type="radio" name="questionFour">1990
         <input type="radio" name="questionFour" id="answerFour">1994
         <input type="radio" name="questionFour">1995
@@ -52,6 +58,7 @@
 
         <div id="question">
         <label>QUESTION 5: Where did Ross and Rachel have their first date?</label>
+        <img src="date-ross-rachel.webp" alt="planetarium" width="300px" height="200px">
         <input type="radio" name="questionFive">Seacost
         <input type="radio" name="questionFive">Restaurant
         <input type="radio" name="questionFive" id="answerFive">Planetarium
@@ -61,15 +68,17 @@
 
         <div id="question">
         <label>QUESTION 6: In an effort to get over Richard, Monica started making what?</label>
+        <img src="richard-monica-break-up.avif" alt="break up" width="300px" height="200px">
         <input type="radio" name="questionOne">Handmade soap
         <input type="radio" name="questionOne">Dolls
         <input type="radio" name="questionOne">Crochet toys
-        <input type="radio" name="questionOne" id="answerOne">Jam
+        <input type="radio" name="questionOne" id="answerSix">Jam
         </div>
 
         <div id="question">
         <label>QUESTION 7:  What city is Friends set in?</label>
-        <input type="radio" name="questionTwo" id="answerTwo">New York
+        <img src="new-york-city.webp" alt="new-york" width="300px" height="200px">
+        <input type="radio" name="questionTwo" id="answerSeven">New York
         <input type="radio" name="questionTwo">California
         <input type="radio" name="questionTwo">Miami
         <input type="radio" name="questionTwo">Los Angeles
@@ -77,29 +86,32 @@
 
         <div id="question">
         <label>QUESTION 8: Chandler told Janice he was moving where to avoid seeing her again?</label>
+        <img src="chandler-janis.avif" alt="janis" width="300px" height="200px">
         <input type="radio" name="questionThree">India
         <input type="radio" name="questionThree">Pakistan
-        <input type="radio" name="questionThree" id="answerThree">Yemen
+        <input type="radio" name="questionThree" id="answerEight">Yemen
         <input type="radio" name="questionThree">Syria
         </div>
         
         <div id="question">
         <label>QUESTION 9: What is Joey's favorite food?</label>
+        <img src="joey-food.jpeg" alt="foodie" width="300px" height="200px">
         <input type="radio" name="questionFour">Apple pie
-        <input type="radio" name="questionFour" id="answerFour">Sandwiches
+        <input type="radio" name="questionFour" id="answerNine">Sandwiches
         <input type="radio" name="questionFour">Pizza
         <input type="radio" name="questionFour">Tacos
         </div>
 
         <div id="question">
         <label>QUESTION 10: What is the name of most famous song of Phoebe?</label>
+        <img src="smelly-cat.jpeg" alt="music" width="300px" height="200px">
         <input type="radio" name="questionFive">Clingy Bunny
         <input type="radio" name="questionFive">Festive Dragon 
-        <input type="radio" name="questionFive" id="answerFive">Smelly Cat
+        <input type="radio" name="questionFive" id="answerTen">Smelly Cat
         <input type="radio" name="questionFive">Cute Humster
         </div>
         
-        <button type="submit" id="btn">Check</button>
+        <button type="submit" id="btn">CHECK ✔️</button>
         <p id="showResult"></p>
     </form>
 <script src="index.js"></script>
